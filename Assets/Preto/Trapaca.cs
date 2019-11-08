@@ -33,5 +33,7 @@ public class Trapaca : MonoBehaviour
             rb.velocity += new Vector3(-0.28f, 0.0f, 0.0f);
         if (other.name == "TrapacaP2")
             rb.velocity += new Vector3(-0.1f, 0.0f, 0.0f);
+        if (other.name == "TrapacaP3")
+            rb.velocity += new Vector3(0.1f, 0.0f, 0.0f);
     }
 }

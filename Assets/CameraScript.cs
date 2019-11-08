@@ -14,7 +14,7 @@ public class CameraScript : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (go.transform.position.y > 2.8f)
+        if (go.transform.position.y > -0.5f)
             go.transform.position -= new Vector3(0.0f, 0.02f, 0.0f);
     }
 }

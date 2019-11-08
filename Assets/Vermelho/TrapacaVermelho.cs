@@ -32,7 +32,7 @@ public class TrapacaVermelho : MonoBehaviour
         if (other.name == "TrapacaV3")
         {
             rb.mass = 100;
-            rb2.AddForce(200, 250, 0, ForceMode.Impulse);
+            rb2.AddForce(130, 210, 0, ForceMode.Impulse);
         }
     }
 }
