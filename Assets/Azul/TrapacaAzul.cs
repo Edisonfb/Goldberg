@@ -20,8 +20,8 @@ public class TrapacaAzul : MonoBehaviour
     private void OnTriggerStay(Collider other)
     {
         if (other.name == "TrapacaA")
-            rb.velocity += new Vector3(-0.2f, 0.0f, 0.0f);
+            rb.velocity += new Vector3(-0.3f, 0.0f, 0.0f);
         if (other.name == "TrapacaA2")
-            rb.velocity += new Vector3(-0.2f, 0.0f, 0.0f);
+            rb.velocity += new Vector3(-0.3f, 0.0f, 0.0f);
     }
 }

@@ -15,6 +15,6 @@ public class CameraScript : MonoBehaviour
     void Update()
     {
         if (go.transform.position.y > 2.8f)
-            go.transform.position -= new Vector3(0.0f, 0.008f, 0.0f);
+            go.transform.position -= new Vector3(0.0f, 0.02f, 0.0f);
     }
 }
